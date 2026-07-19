@@ -188,6 +188,37 @@ a{color:inherit}
 .meta-box .mdesc{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.4}
 .meta-box .mfuente{font-size:10px;color:#9ca3af;margin-top:4px;font-style:italic}
 
+/* ═══ DISTRITOS ═══ */
+.dist-hero{background:var(--navy);padding:70px 0;text-align:center;position:relative;overflow:hidden}
+.dist-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(245,197,24,.12) 0%,transparent 70%)}
+.dist-hero-inner{max-width:820px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.dist-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:5px 12px;border-radius:6px;margin-bottom:18px;background:rgba(245,197,24,.15);color:var(--amarillo);border:1px solid rgba(245,197,24,.3)}
+.dist-h1{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(40px,6vw,68px);color:#fff;line-height:.95;text-transform:uppercase;margin-bottom:14px}
+.dist-h1 em{color:var(--amarillo);font-style:normal}
+.dist-sub{font-size:15px;color:rgba(255,255,255,.65);max-width:680px;margin:0 auto}
+.dist-section{padding:56px 0}
+.dist-section:nth-child(odd){background:#fff}
+.dist-section:nth-child(even){background:var(--gris)}
+.dist-inner{max-width:1100px;margin:0 auto;padding:0 24px}
+.dist-section-title{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:26px;color:var(--navy);text-transform:uppercase;margin-bottom:24px}
+.dist-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.dist-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:22px}
+.dist-section:nth-child(even) .dist-card{background:#fff}
+.dist-card .n{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--verde-bg);color:var(--verde);font-weight:900;font-size:13px;margin-bottom:10px}
+.dist-card p{font-size:13px;color:var(--muted);line-height:1.6}
+.dist-card h4{font-size:14px;color:var(--navy);font-weight:700;margin-bottom:6px}
+.dist-about{background:var(--navy);border-radius:14px;padding:28px 32px;color:rgba(255,255,255,.8);font-size:13px;line-height:1.7}
+.dist-about h4{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:18px;color:var(--amarillo);text-transform:uppercase;margin-bottom:10px}
+.dist-cta-band{background:var(--verde);padding:48px 0;text-align:center}
+.dist-cta-band h3{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:28px;color:#fff;text-transform:uppercase;margin-bottom:8px}
+.dist-cta-band p{color:rgba(255,255,255,.85);font-size:14px;margin-bottom:20px}
+.dist-hub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.dist-hub-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px;text-decoration:none;display:block;transition:all .2s}
+.dist-hub-card:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,0,0,.08);border-color:var(--verde)}
+.dist-hub-card .tag{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--verde);margin-bottom:8px;display:block}
+.dist-hub-card h3{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:22px;color:var(--navy);text-transform:uppercase;margin-bottom:4px}
+.dist-hub-card .pop{font-size:12px;color:var(--muted)}
+
 /* FOOTER */
 .site-footer{background:var(--navy);padding:48px 0 24px}
 .footer-inner{max-width:1200px;margin:0 auto;padding:0 24px}
@@ -225,6 +256,7 @@ a{color:inherit}
   .animal-content{padding:28px 24px}
   .cand-fotos,.sobre-foto-wrap{display:none}
   .dim-detail-section .estrategias-grid,.metas-row,.principios-grid{grid-template-columns:1fr}
+  .dist-grid,.dist-hub-grid{grid-template-columns:1fr}
   .plan-stats-inner{gap:12px}
   .pstat .num{font-size:28px}
   .footer-top{grid-template-columns:1fr}
