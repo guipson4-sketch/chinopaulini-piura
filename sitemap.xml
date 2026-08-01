@@ -157,8 +157,9 @@
   </url>
   <url>
     <loc>https://chinopaulini.com/noticias/piura-resiliente-el-nino-inundaciones.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://chinopaulini.com/noticias/el-tallan-distrito-pequeno-vocacion-agricola.html</loc>
