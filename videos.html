@@ -43,7 +43,7 @@
     })(window, document, "clarity", "script", "xo5lqqvrii");
 </script>
 <style>
-.video-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:var(--navy);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.video-frame{position:relative;width:100%;max-width:280px;aspect-ratio:9/16;border-radius:10px;overflow:hidden;background:var(--navy);display:flex;align-items:center;justify-content:center;margin:0 auto 14px}
 .video-frame .ph{display:flex;flex-direction:column;align-items:center;gap:8px;color:rgba(255,255,255,.55)}
 .video-frame .ph svg{opacity:.7}
 .video-frame .ph span{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase}
@@ -106,11 +106,72 @@
     <div class="dist-hub-grid">
 
       <!--
-        CÓMO AGREGAR UN VIDEO REAL:
-        Reemplaza el <div class="ph">...</div> de cada tarjeta por un iframe, por ejemplo (YouTube):
+        CÓMO AGREGAR UN VIDEO REAL (placeholders restantes):
+        Reemplaza el <div class="ph">...</div> por un iframe, por ejemplo (YouTube):
         <iframe src="https://www.youtube.com/embed/ID_DEL_VIDEO" title="..." allowfullscreen loading="lazy"></iframe>
-        o el embed correspondiente de Instagram/TikTok. Mantén el <div class="video-frame"> como contenedor.
+        o el embed de Facebook usado abajo: https://www.facebook.com/plugins/video.php?href=URL_CODIFICADA&show_text=false
+        Mantén el <div class="video-frame"> como contenedor.
       -->
+
+      <div class="dist-hub-card" style="cursor:default">
+        <div class="video-frame">
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1360975945463617&show_text=false" title="Por qué Chino Paulini quiere ser alcalde" loading="lazy" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <span class="tag" style="background:var(--navy);color:#fff">Conoce a Chino</span>
+        <h3 style="font-size:19px">Por qué Ricardo "Chino" Paulini quiere ser alcalde de Piura</h3>
+        <div class="pop">El video de presentación de la candidatura: quién es Chino Paulini y por qué busca la Alcaldía Provincial.</div>
+        <a href="sobre-chino.html" style="color:var(--verde);font-weight:700;font-size:13px;text-decoration:underline">Conoce más sobre Chino →</a>
+      </div>
+
+      <div class="dist-hub-card" style="cursor:default">
+        <div class="video-frame">
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2250556409106028&show_text=false" title="Falta de agua en Piura" loading="lazy" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <span class="tag">Crisis Hídrica 2026</span>
+        <h3 style="font-size:19px">La represa Poechos y el rol de la Municipalidad como accionista de EPS Grau</h3>
+        <div class="pop">Entrevista sobre la crisis del agua en Piura y qué puede exigir la Municipalidad como accionista de EPS Grau.</div>
+        <a href="noticias/crisis-hidrica-poechos-eps-grau-piura.html" style="color:var(--verde);font-weight:700;font-size:13px;text-decoration:underline">Ver el artículo completo →</a>
+      </div>
+
+      <div class="dist-hub-card" style="cursor:default">
+        <div class="video-frame">
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1048401024409783&show_text=false" title="Problema de la basura en Piura" loading="lazy" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <span class="tag">Residuos Sólidos</span>
+        <h3 style="font-size:19px">El problema de la basura en Piura y la propuesta de Economía Circular</h3>
+        <div class="pop">Entrevista sobre la gestión de residuos sólidos en la provincia y el programa "Piura Limpia".</div>
+        <a href="noticias/economia-circular-residuos-solidos-piura.html" style="color:var(--verde);font-weight:700;font-size:13px;text-decoration:underline">Ver el artículo completo →</a>
+      </div>
+
+      <div class="dist-hub-card" style="cursor:default">
+        <div class="video-frame">
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1070120142222621&show_text=false" title="Problema de la anemia infantil en Piura" loading="lazy" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <span class="tag">Salud Preventiva</span>
+        <h3 style="font-size:19px">Anemia infantil en Piura: la propuesta de salud preventiva itinerante</h3>
+        <div class="pop">Entrevista sobre la anemia infantil (42.4% según ENDES 2024) y la meta de reducirla al 15% con salud preventiva itinerante.</div>
+        <a href="plan-de-gobierno.html#social" style="color:var(--verde);font-weight:700;font-size:13px;text-decoration:underline">Ver la Dimensión Social del plan →</a>
+      </div>
+
+      <div class="dist-hub-card" style="cursor:default">
+        <div class="video-frame">
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1810431126971572&show_text=false" title="Diabetes y centros de salud ambulatorios en Piura" loading="lazy" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <span class="tag">Salud Preventiva</span>
+        <h3 style="font-size:19px">Diabetes e hipertensión: la propuesta de centros de salud ambulatorios</h3>
+        <div class="pop">Entrevista sobre la atención de enfermedades crónicas como la diabetes y la propuesta de salud preventiva itinerante en los barrios.</div>
+        <a href="plan-de-gobierno.html#social" style="color:var(--verde);font-weight:700;font-size:13px;text-decoration:underline">Ver la Dimensión Social del plan →</a>
+      </div>
+
+      <div class="dist-hub-card" style="cursor:default">
+        <div class="video-frame">
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1488004119750184&show_text=false" title="Problema de los mercados en Piura" loading="lazy" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <span class="tag">Comercio y Formalización</span>
+        <h3 style="font-size:19px">El problema de los mercados de Piura y la formalización del comercio</h3>
+        <div class="pop">Entrevista sobre la situación de los mercados de la provincia y la propuesta "Piura Emprende" de formalización.</div>
+        <a href="plan-de-gobierno.html#economica" style="color:var(--verde);font-weight:700;font-size:13px;text-decoration:underline">Ver la Dimensión Económica del plan →</a>
+      </div>
 
       <div class="dist-hub-card" style="cursor:default">
         <div class="video-frame">
@@ -149,19 +210,6 @@
         <h3 style="font-size:19px">Por qué la Muralla Digital sigue apagada, y qué haría Chino Paulini</h3>
         <div class="pop">Entrevista sobre la crisis de seguridad ciudadana y el sistema de videovigilancia inoperativo.</div>
         <a href="noticias/muralla-digital-seguridad-piura.html" style="color:var(--verde);font-weight:700;font-size:13px;text-decoration:underline">Ver el artículo completo →</a>
-      </div>
-
-      <div class="dist-hub-card" style="cursor:default">
-        <div class="video-frame">
-          <div class="ph">
-            <svg width="46" height="46" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="1.5"/><path d="M10 8.5L16 12L10 15.5V8.5Z" fill="currentColor"/></svg>
-            <span>Video próximamente</span>
-          </div>
-        </div>
-        <span class="tag">Crisis Hídrica 2026</span>
-        <h3 style="font-size:19px">La represa Poechos y el rol de la Municipalidad como accionista de EPS Grau</h3>
-        <div class="pop">Entrevista sobre la crisis del agua en Piura y qué puede exigir la Municipalidad como accionista de EPS Grau.</div>
-        <a href="noticias/crisis-hidrica-poechos-eps-grau-piura.html" style="color:var(--verde);font-weight:700;font-size:13px;text-decoration:underline">Ver el artículo completo →</a>
       </div>
 
     </div>
