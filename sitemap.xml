@@ -105,6 +105,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://chinopaulini.com/noticias/anemia-infantil-piura.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chinopaulini.com/noticias/mercados-informalidad-piura.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://chinopaulini.com/noticias/informalidad-laboral-piura-emprende.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
