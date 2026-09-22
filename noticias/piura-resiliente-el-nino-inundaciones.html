@@ -127,6 +127,10 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-FSSC2YR2J8');
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('a[href*="wa.me"]');
+    if (t) { gtag('event', 'click_whatsapp', {event_category:'engagement', event_label: location.pathname}); }
+  });
 </script>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
