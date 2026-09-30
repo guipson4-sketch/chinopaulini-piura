@@ -98,6 +98,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://chinopaulini.com/noticias/entrevista-accesibilidad-electoral-piura-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://chinopaulini.com/noticias/agua-potable-piura-meta-95-cobertura.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
