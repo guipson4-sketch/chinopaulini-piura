@@ -356,3 +356,7 @@ a{color:inherit}
 .hx-sig img{width:100%;max-width:420px;height:auto}
 .hx-sig-line{width:80px;height:3px;background:var(--amarillo);margin:22px 0 14px;border-radius:2px}
 .hx-sig p{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.75);margin:0}
+.logo-txt{font-family:'Sacramento',cursive;font-size:42px;line-height:1;color:var(--navy);display:inline-block;padding-bottom:6px;border-bottom:2px solid var(--navy);border-radius:0 0 60% 40%/0 0 12px 6px;white-space:nowrap}
+.logo-txt.light{color:#fff;border-bottom-color:#fff}
+.logo-txt.big{font-size:clamp(64px,8vw,110px);padding-bottom:10px;border-bottom-width:3px}
+@media(max-width:560px){.logo-txt{font-size:34px}}
