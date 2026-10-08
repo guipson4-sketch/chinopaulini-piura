@@ -311,7 +311,7 @@ a{color:inherit}
 .btn-o{border:1.5px solid rgba(255,255,255,.55);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;text-decoration:none;display:inline-block}
 .btn-o:hover{background:rgba(255,255,255,.1)}
 .hx-photo{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.45);aspect-ratio:4/5;max-height:620px;justify-self:center;width:100%;max-width:480px;border:1px solid rgba(255,255,255,.12)}
-.hx-photo img{width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block}
+.hx-photo img{width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block;transform:scale(1.14);transform-origin:80% 70%}
 .hx-strip{background:#0a1626;color:#fff;padding:22px 0}
 .hx-strip .wrapx{display:flex;gap:40px;flex-wrap:wrap;justify-content:space-between}
 .hx-strip .it{font-size:13px;color:rgba(255,255,255,.7);max-width:260px}
