@@ -349,3 +349,6 @@ a{color:inherit}
   .sx{padding:56px 0}
 }
 @media(max-width:560px){.pgrid{grid-template-columns:1fr}.hx-strip .wrapx{gap:22px}}
+.logo-sig{height:46px;width:auto;display:block}
+.logo-cargo-side{border-left:2px solid var(--amarillo);padding-left:10px;line-height:1.35;font-size:10px}
+@media(max-width:560px){.logo-sig{height:38px}.logo-cargo-side{display:none}}
