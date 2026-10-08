@@ -294,3 +294,58 @@ a{color:inherit}
   .btn-wsp{width:100%;justify-content:center;font-size:14px}
   .footer-col{display:none}
 }
+
+/* ═══ REBRAND · CHINO PAULINI ═══ */
+.logo-mark{width:46px;height:46px;border-radius:10px;background:var(--navy);color:var(--amarillo);font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:24px;letter-spacing:1px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.logo-cargo{color:var(--muted)!important}
+.wrapx{max-width:1200px;margin:0 auto;padding:0 24px}
+.hx{background:linear-gradient(135deg,var(--navy) 0%,#13294a 100%);color:#fff;padding:72px 0 80px;overflow:hidden}
+.hx-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.hx-tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--amarillo);border-bottom:2px solid var(--amarillo);padding-bottom:6px;margin-bottom:22px}
+.hx h1{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(46px,6vw,78px);line-height:.95;text-transform:uppercase;letter-spacing:-.5px;margin-bottom:22px}
+.hx h1 em{font-style:normal;color:var(--amarillo)}
+.hx p.lead{font-size:18px;line-height:1.65;color:rgba(255,255,255,.8);max-width:540px;margin-bottom:32px}
+.hx-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-y{background:var(--amarillo);color:var(--navy);font-weight:800;padding:14px 26px;border-radius:8px;text-decoration:none;display:inline-block}
+.btn-y:hover{background:#ffd633}
+.btn-o{border:1.5px solid rgba(255,255,255,.55);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;text-decoration:none;display:inline-block}
+.btn-o:hover{background:rgba(255,255,255,.1)}
+.hx-photo{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.45);aspect-ratio:4/5;max-height:620px;justify-self:center;width:100%;max-width:480px;border:1px solid rgba(255,255,255,.12)}
+.hx-photo img{width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block}
+.hx-strip{background:#0a1626;color:#fff;padding:22px 0}
+.hx-strip .wrapx{display:flex;gap:40px;flex-wrap:wrap;justify-content:space-between}
+.hx-strip .it{font-size:13px;color:rgba(255,255,255,.7);max-width:260px}
+.hx-strip .it b{display:block;font-family:'Barlow Condensed',sans-serif;font-size:30px;color:var(--amarillo);line-height:1}
+.sx{padding:80px 0}
+.sx.alt{background:var(--gris)}
+.sx-eyebrow{font-size:12px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:var(--verde);margin-bottom:10px}
+.sx h2{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(32px,4vw,48px);line-height:1.02;text-transform:uppercase;color:var(--navy);margin-bottom:14px}
+.sx p.sub{font-size:17px;color:var(--muted);max-width:680px;margin-bottom:36px}
+.pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.pcard{background:#fff;border:1px solid var(--border);border-radius:14px;padding:26px 22px;text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.pcard:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(13,27,46,.12)}
+.pcard .n{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:44px;color:var(--amarillo-d);line-height:1}
+.pcard h3{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:24px;text-transform:uppercase;color:var(--navy);margin:8px 0 8px}
+.pcard p{font-size:14px;color:var(--muted);flex:1}
+.pcard .go{margin-top:16px;font-weight:700;font-size:14px;color:var(--verde)}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.pillar{border-top:3px solid var(--amarillo);padding-top:16px}
+.pillar h3{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:24px;text-transform:uppercase;color:var(--navy);margin-bottom:6px}
+.pillar p{font-size:15px;color:#444}
+.split{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:center}
+.split img{width:100%;border-radius:16px;box-shadow:0 18px 40px rgba(0,0,0,.15);aspect-ratio:4/5;object-fit:cover;object-position:center 15%}
+.proj-detail{background:#fff;border:1px solid var(--border);border-radius:16px;padding:34px;margin-bottom:26px}
+.proj-detail h2{margin-bottom:8px}
+.dato{display:inline-block;background:var(--navy);color:#fff;border-radius:8px;padding:10px 16px;margin:0 10px 10px 0;font-size:13px}
+.dato b{color:var(--amarillo);font-family:'Barlow Condensed',sans-serif;font-size:22px;margin-right:6px}
+.proj-detail ul{margin:12px 0 18px 20px;color:#333}
+.proj-detail li{margin-bottom:6px}
+@media(max-width:960px){
+  .hx-grid,.split{grid-template-columns:1fr;gap:34px}
+  .hx{padding:48px 0 56px}
+  .hx-photo{max-height:460px;order:-1}
+  .pgrid{grid-template-columns:repeat(2,1fr)}
+  .pillars{grid-template-columns:1fr}
+  .sx{padding:56px 0}
+}
+@media(max-width:560px){.pgrid{grid-template-columns:1fr}.hx-strip .wrapx{gap:22px}}
