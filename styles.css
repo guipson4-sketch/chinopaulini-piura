@@ -307,7 +307,7 @@ a{color:inherit}
 .hx p.lead{font-size:18px;line-height:1.65;color:rgba(255,255,255,.8);max-width:540px;margin-bottom:32px}
 .hx-btns{display:flex;gap:12px;flex-wrap:wrap}
 .btn-y{background:var(--amarillo);color:var(--navy);font-weight:800;padding:14px 26px;border-radius:8px;text-decoration:none;display:inline-block}
-.btn-y:hover{background:#ffd633}
+.btn-y:hover{background:#D9B65E}
 .btn-o{border:1.5px solid rgba(255,255,255,.55);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;text-decoration:none;display:inline-block}
 .btn-o:hover{background:rgba(255,255,255,.1)}
 .hx-photo{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.45);aspect-ratio:4/5;max-height:620px;justify-self:center;width:100%;max-width:480px;border:1px solid rgba(255,255,255,.12)}
